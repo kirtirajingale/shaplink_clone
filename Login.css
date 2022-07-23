@@ -1,0 +1,73 @@
+#form {
+  border-width: 20px;
+  width: 350px;
+  height: auto;
+  border: 1px solid;
+  margin: auto;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+#form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+#form h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#form p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#fb{
+  display: block;
+  margin: auto;
+  padding: 5px;
+  color: #fff;
+  background: #3b5897 url(https://kcdn.twiikapp.com/images/facebook_icon.png)
+  no-repeat 10px 10px;
+  border: none;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#fb:hover{
+  background-color:#1a4cb8  ;
+}
+#login {
+  display: block;
+  background: #3cc6dc;
+  color: #fff;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 80%;
+  margin: auto;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#login:hover{
+  background-color: #0bacbb;
+}

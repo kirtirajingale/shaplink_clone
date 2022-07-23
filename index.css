@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+#background {
+  background-image: url(https://www.shapelink.com/images/startpage.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 75px 0px 50px;
+  z-index: 1;
+}
+/* navbar and banner */
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  font: 12px lato, Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  margin-top: -75px;
+}
+.nav {
+  width: 50%;
+  margin-left: 600px;
+  display: flex;
+  /* border: 1px solid red; */
+  gap: 50px;
+  font-size: 20px;
+}
+.navbar > div > img {
+  width: 35%;
+  /* border: 1px solid green; */
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.nav > p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-top: 15px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav > p:hover {
+  text-decoration: underline;
+}
+.nav > button {
+  width: 30%;
+  height: 45px;
+  color: #ffffff;
+  background-color: #5a3bdb;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.nav > button:hover {
+  background-color: #673ab7;
+}
+.bar {
+  width: 30%;
+}
+.bar a img {
+  width: 50%;
+}
+.banner {
+  width: 90%;
+  height: 100px;
+  position: relative;
+  right: -150px;
+}
+.banner > h1 {
+  display: block;
+  margin-top: 170px;
+  color: white;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.banner > p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+  width: 80%;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #5a3bdb;
+  border-radius: 30px;
+  margin: -8px 0px -8px 10px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.banner > div {
+  padding: 150px;
+}
+.banner > button {
+  margin-left: 90px;
+}
+.banner > h1 {
+  margin-left: 90px;
+}
+.banner > p {
+  margin-left: 90px;
+}
+
+/* midsection */
+#middle {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  margin-top: -300px;
+  justify-content: space-between;
+  font: 16px lato, Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+.middlei {
+  margin-top: 200px;
+}
+.middlet {
+  margin-top: 500px;
+  width: 43%;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.middlet > h1 {
+  margin-bottom: 50px;
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg)
+    no-repeat left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/*---------------------------------- KEEP TRACK OF YOUR HABITS Section ------------------------------ */
+
+#smiddle {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding-bottom: 100px;
+  margin-top: 200px;
+  justify-content: space-between;
+  font: 16px lato, Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; */
+}
+.smiddlei > img {
+  /* border: 1px solid; */
+  margin-left: -50px;
+}
+
+.smiddlet {
+  width: 100%;
+  margin-top: 110px;
+  margin-left: 100px;
+  padding-left: 100px;
+  /* border: 1px solid; */
+}
+.smiddlet > div > img {
+  border: 1px solid;
+}
+.smiddlet h2 {
+  margin-bottom: 50px;
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg)
+  no-repeat left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.smiddlet ul li {
+  list-style-type: none;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 30px;
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_check.png)
+    no-repeat left top;
+  background-size: 20px;
+}
+/*---------------------------------- WORKOUTS PROGRAMS & COACHING Section ------------------------------ */
+#tmiddle {
+  height: auto;
+  /* border: 1px solid; */
+  background-color: #f7f7fb;
+  padding: 50px;
+}
+#tmiddle {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.tmiddlei {
+  position: relative;
+  right: -200px;
+}
+.tmiddlet {
+  margin-top: 220px;
+  /* border: 1px solid; */
+  width: 38%;
+  margin-left: 60px;
+}
+.tmiddlet h2 {
+  position: relative;
+  left: 100px;
+  margin-bottom: 50px;
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg)
+  no-repeat left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.tmiddlet>p{
+  position: relative;
+  left: 100px;
+  line-height: 30px;
+}
+/*---------------------------------- CHALLENGE & BOOST Section ------------------------------ */
+
+#fmiddle {
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* border: 1px solid; */
+}
+
+.fmiddlei > img {
+  position: relative;
+  left: 60px;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-left: 85px;
+}
+.fmiddlet {
+  position: relative;
+  left: 60px;
+  width: 40%;
+  /* border: 1px solid green; */
+  margin-left: 200px;
+}
+.fmiddlei {
+  width: 40%;
+}
+.fmiddlet > h2 {
+  margin-top: 230px;
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg)
+  no-repeat left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.fmiddlet>p{
+  width: 90%;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+/*---------------------------------- THIS IS INCLUDED IN TWIIK Section ------------------------------ */
+
+#smiddle {
+  margin-top: 50px;
+}
+#smiddle > h2 {
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg)
+  no-repeat left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: -50px;
+}
+#emiddle {
+  width: 80%;
+  height: auto;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: -110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+#emiddle > div {
+  width: 32%;
+  height: auto;
+  /* border: 1px solid; */
+  /* background-color: #000; */
+  display: flex;
+  margin-bottom: 20px;
+}
+h3{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+}
+h3+p{
+  font-size: 14px;
+  line-height: 25px;
+}
+#emiddle > div > img {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 40%;
+  background-image: linear-gradient(to bottom, #5a3bdb, #75c6ec);
+  margin: 0px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#emiddle > div > div {
+  padding: 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+/*---------------------------------- Footer Section ------------------------------ */
+
+#footer {
+  bottom: 0px;
+  background: #121451;
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+
+#footerR {
+  width: auto;
+  max-width: auto;
+  padding: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+#footerL {
+  /* border: 1px solid yellow; */
+  vertical-align: middle;
+  padding: 80px;
+  margin-left: 250px;
+}
+#footerL > a > img {
+  position: relative;
+  left: 150px;
+  top: 30px;
+  height: 50px;
+  padding: 10px;
+}
+#footerR > p {
+  color: #bbbbbb;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#footerR > p:nth-child(4) {
+  margin-top: 30px;
+}
+#footerR > p:nth-child(2) {
+  position: relative;
+  left: 100px;
+}
+#footerR > p:nth-child(3) {
+  position: relative;
+  left: 100px;
+}
+#footerR > a {
+  text-decoration: none;
+  color: white;
+}
+#footerR > img {
+  position: relative;
+  left: 100px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+#footerR p a {
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  position: relative;
+  left: 100px;
+}

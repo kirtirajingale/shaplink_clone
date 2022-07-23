@@ -1,0 +1,348 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#background {
+  background-color: #383838;
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 75px 0px 50px;
+  z-index: 1;
+  margin-bottom: 60px;
+}
+/* navbar and banner */
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  font: 12px lato, Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  margin-top: -75px;
+}
+.nav {
+  width: 50%;
+  margin-left: 600px;
+  display: flex;
+  /* border: 1px solid red; */
+  gap: 50px;
+  font-size: 20px;
+}
+.navbar > div > img {
+  width: 35%;
+  /* border: 1px solid green; */
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.nav > p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-top: 15px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav > p:hover {
+  text-decoration: underline;
+}
+.nav > button {
+  width: 35%;
+  height: 45px;
+  color: #ffffff;
+  background-color: #5a3bdb;
+  border-radius: 30px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.nav > button:hover {
+  background-color: #673ab7;
+}
+.bar {
+  width: 30%;
+}
+.bar a img {
+  width: 50%;
+}
+/*------------------------------------- Top Section Banner -------------------- */
+.banner{
+  margin: auto;
+}
+.banner > h1 {
+  display: block;
+  margin-top: 170px;
+  color: white;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.banner > p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+  width: 80%;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: lato-light;
+}
+button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #5a3bdb;
+  border-radius: 30px;
+  margin: -8px 0px -8px 10px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.one{
+  position: relative;
+  left: 80px;
+}
+.one:hover{
+  background-color: #673ab7;
+}
+.two:hover{
+  background-color: #673ab7;
+}
+button:last-child {
+  position: relative;
+  padding: 0px 25px;
+  background: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  line-height: 46px;
+  border-radius: 25px;
+  border: 2px solid #75c6ec;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+.banner > div {
+  padding: 150px;
+}
+.banner > button {
+  margin-left: 100px;
+}
+.banner > h1 {
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 35px;
+}
+.banner {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#middle {
+  position: relative;
+  left: 60px;
+  width: 70%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: table-cell;
+  padding: 0px 150px;
+  vertical-align: middle;
+  box-sizing: border-box;
+ 
+}
+#middle > h2 {
+  background: url(https://kcdn.twiikapp.com/images/pt/startpage_h1_bg.jpg)
+  no-repeat left bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#middle > p {
+  width: 45%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+#form {
+  position: relative;
+  left: 60px;
+  margin-left: 50px;
+  padding: 100px;
+  line-height: 50px;
+}
+input{
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif
+}
+#name {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0px;
+  padding: 10px 0px;
+  width: 50%;
+}
+#email {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0px;
+  padding: 10px 0px;
+  width: 50%;
+}
+#msg {
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-left: 0px;
+  width: 50%;
+}
+.g-recaptcha {
+  width: 304px;
+  height: 48px;
+  margin-top: 20px;
+  background: #f9f9f9;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  padding: 10px;
+}
+.capcha {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#capcha > img {
+  width: 15%;
+}
+#capcha > h3 {
+  margin-top: 10px;
+}
+#send {
+  position: relative;
+  left: 200px;
+  top: -120px;
+  width: 20%;
+  margin-bottom: 150px;
+}
+#send>button{
+  width: 40%;
+  background-color: #5C46DC;
+}
+#send>button:hover{
+  background-color: #673ab7;
+}
+#form textarea {
+  width: 50%;
+  margin: 5px auto;
+  padding-left: 10px;
+  height: 80px;
+}
+
+/* footer section */
+#footer {
+  /* position: absolute; */
+  left: 0px;
+  bottom: 0px;
+  background: #121451;
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+#footer {
+  /* position: absolute; */
+  left: 0px;
+  bottom: 0px;
+  background: #121451;
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+#footerR {
+  /* border: 1px solid red; */
+  width: auto;
+  max-width: auto;
+  padding: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+#footerL {
+  /* border: 1px solid yellow; */
+  vertical-align: middle;
+  padding: 80px;
+  margin-left: 250px;
+}
+#footerL > a > img {
+  position: relative;
+  left: 150px;
+  top: 30px;
+  height: 50px;
+  padding: 10px;
+}
+#footerR > p {
+  color: #bbbbbb;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#footerR > p:nth-child(4) {
+  margin-top: 30px;
+}
+#footerR > p:nth-child(2) {
+  position: relative;
+  left: 100px;
+}
+#footerR > p:nth-child(3) {
+  position: relative;
+  left: 100px;
+}
+#footerR > a {
+  text-decoration: none;
+  color: white;
+}
+#footerR > img {
+  position: relative;
+  left: 100px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+#footerR p a {
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  position: relative;
+  left: 100px;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.bar > a > img {
+  width: 30%;
+}
